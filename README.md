@@ -32,8 +32,11 @@ It is often used like this:
 - Like items, use declarations are private to the containing module, by default.
 - Usually a use declaration is used to shorten the path required to refer to a module item
 - The `self` keyword refers to the current module scope
+
 ------------------------------------------------------------------------------------------
+```aidl
 mod deeply {
+
   pub mod nested {
     pub fn function() {
       println!("called `deeply::nested::function()`");
@@ -43,6 +46,8 @@ mod deeply {
 
 - use crate::deeply::nested::function;
   function();
+```
+
 ------------------------------------------------------------------------------------------
 
 ## Crates
