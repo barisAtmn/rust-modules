@@ -1,6 +1,6 @@
 pub enum Gender {
-    Women,
-    Men,
+    Woman,
+    Man,
     Other,
 }
 
